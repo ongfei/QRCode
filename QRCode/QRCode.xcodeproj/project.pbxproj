@@ -92,6 +92,7 @@
 		A39A11DE1F15B7E10045821B /* QRCodeScanningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeScanningVC.m; sourceTree = "<group>"; };
 		A39A11DF1F15B7E10045821B /* ZBarQRCodeScanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarQRCodeScanVC.h; sourceTree = "<group>"; };
 		A39A11E01F15B7E10045821B /* ZBarQRCodeScanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBarQRCodeScanVC.m; sourceTree = "<group>"; };
+		A39A11E41F15D68C0045821B /* DFQRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFQRCode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +202,7 @@
 				A39A11BD1F15B7690045821B /* QRCodegenerate */,
 				A39A11BE1F15B7690045821B /* QRCodeScan */,
 				A39A11BF1F15B7690045821B /* QRCodeScanVC */,
+				A39A11E41F15D68C0045821B /* DFQRCode.h */,
 			);
 			path = QRCode;
 			sourceTree = "<group>";

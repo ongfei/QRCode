@@ -10,11 +10,7 @@
 
 #import <AVFoundation/AVFoundation.h>
 
-#import "DFQRCodeManager.h"
-
-#import "ZBarQRCodeScanVC.h"
-
-#import "QRCodeScanningVC.h"
+#import "DFQRCode.h"
 
 @interface ViewController ()
 
