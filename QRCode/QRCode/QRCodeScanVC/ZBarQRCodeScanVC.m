@@ -10,7 +10,7 @@
 
 #import "DFQRCodeScanningView.h"
 
-#import <ZBarSDK.h>
+#import <ZBarSDK/ZBarSDK.h>
 
 #import <AVFoundation/AVFoundation.h>
 
