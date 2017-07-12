@@ -14,7 +14,7 @@
 //生成一张普通的二维码
 + (UIImage *)generateWithDefaultQRCodeString:(NSString *)string imageSize:(CGSize)Imagesize;
 
-/// 生成一张带有logo的二维码 logoScale 0-1
+/// 生成一张带有logo的二维码 logoScale 0-1DFQRCodeManager.h
 + (UIImage *)generateWithLogoQRCodeString:(NSString *)string logoImageName:(NSString *)logoName logoScaleToSuperView:(CGFloat)logoScale;
 
 //生成一张彩色的二维码
