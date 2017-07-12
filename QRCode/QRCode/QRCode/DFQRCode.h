@@ -7,6 +7,6 @@
 //  Copyright © 2017年 df. All rights reserved.
 //
 
-#import "QRCodegenerate/DFQRCodeManager.h"
-#import "QRCodeScan/DFQRCodeScanManager.h"
-#import "CustomView/DFQRCodeScanningView.h"
+#import "DFQRCodeManager.h"
+#import "DFQRCodeScanManager.h"
+#import "DFQRCodeScanningView.h"
