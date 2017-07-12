@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "DFQRCode"
-s.version      = "0.0.1"
+s.version      = "0.1.0"
 s.summary      = "DFQRCode"
 s.homepage     = "https://github.com/ongfei/QRCode"
 s.license      = 'MIT'
