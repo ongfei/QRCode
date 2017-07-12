@@ -12,6 +12,10 @@
 
 #import "DFQRCode.h"
 
+#import "QRCodeScanningVC.h"
+
+#import "ZBarQRCodeScanVC.h"
+
 @interface ViewController ()
 
 @property (nonatomic, strong) UIImageView *codeImgV;

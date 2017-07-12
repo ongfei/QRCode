@@ -8,7 +8,5 @@
 //
 
 #import "DFQRCodeManager.h"
-
-#import "ZBarQRCodeScanVC.h"
-
-#import "QRCodeScanningVC.h"
+#import "DFQRCodeScanManager.h"
+#import "DFQRCodeScanningView.h"

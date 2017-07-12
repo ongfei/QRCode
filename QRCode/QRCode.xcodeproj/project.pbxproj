@@ -29,8 +29,8 @@
 		A39A11D61F15B79C0045821B /* DFQRCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A11D51F15B79C0045821B /* DFQRCodeScanningView.m */; };
 		A39A11D91F15B7B50045821B /* DFQRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A11D81F15B7B50045821B /* DFQRCodeManager.m */; };
 		A39A11DC1F15B7D50045821B /* DFQRCodeScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A11DB1F15B7D50045821B /* DFQRCodeScanManager.m */; };
-		A39A11E11F15B7E10045821B /* QRCodeScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A11DE1F15B7E10045821B /* QRCodeScanningVC.m */; };
-		A39A11E21F15B7E10045821B /* ZBarQRCodeScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A11E01F15B7E10045821B /* ZBarQRCodeScanVC.m */; };
+		A39A11EA1F15F0490045821B /* QRCodeScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A11E71F15F0490045821B /* QRCodeScanningVC.m */; };
+		A39A11EB1F15F0490045821B /* ZBarQRCodeScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A11E91F15F0490045821B /* ZBarQRCodeScanVC.m */; };
 		F193059A6249AAD1AF6B0063 /* libPods-QRCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 681FC096190DFE61ECB9D5B8 /* libPods-QRCode.a */; };
 /* End PBXBuildFile section */
 
@@ -88,11 +88,11 @@
 		A39A11D81F15B7B50045821B /* DFQRCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFQRCodeManager.m; sourceTree = "<group>"; };
 		A39A11DA1F15B7D50045821B /* DFQRCodeScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFQRCodeScanManager.h; sourceTree = "<group>"; };
 		A39A11DB1F15B7D50045821B /* DFQRCodeScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFQRCodeScanManager.m; sourceTree = "<group>"; };
-		A39A11DD1F15B7E10045821B /* QRCodeScanningVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeScanningVC.h; sourceTree = "<group>"; };
-		A39A11DE1F15B7E10045821B /* QRCodeScanningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeScanningVC.m; sourceTree = "<group>"; };
-		A39A11DF1F15B7E10045821B /* ZBarQRCodeScanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarQRCodeScanVC.h; sourceTree = "<group>"; };
-		A39A11E01F15B7E10045821B /* ZBarQRCodeScanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBarQRCodeScanVC.m; sourceTree = "<group>"; };
 		A39A11E41F15D68C0045821B /* DFQRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFQRCode.h; sourceTree = "<group>"; };
+		A39A11E61F15F0490045821B /* QRCodeScanningVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeScanningVC.h; sourceTree = "<group>"; };
+		A39A11E71F15F0490045821B /* QRCodeScanningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeScanningVC.m; sourceTree = "<group>"; };
+		A39A11E81F15F0490045821B /* ZBarQRCodeScanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarQRCodeScanVC.h; sourceTree = "<group>"; };
+		A39A11E91F15F0490045821B /* ZBarQRCodeScanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBarQRCodeScanVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +154,7 @@
 		A39A11841F15ADC00045821B /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
+				A39A11E51F15F0490045821B /* QRCodeScanVC */,
 				A39A11BA1F15B7690045821B /* QRCode */,
 				A39A11B81F15B4E80045821B /* ico.png */,
 				A39A11881F15ADC00045821B /* AppDelegate.h */,
@@ -201,7 +202,6 @@
 				A39A11BB1F15B7690045821B /* CustomView */,
 				A39A11BD1F15B7690045821B /* QRCodegenerate */,
 				A39A11BE1F15B7690045821B /* QRCodeScan */,
-				A39A11BF1F15B7690045821B /* QRCodeScanVC */,
 				A39A11E41F15D68C0045821B /* DFQRCode.h */,
 			);
 			path = QRCode;
@@ -252,13 +252,13 @@
 			path = QRCodeScan;
 			sourceTree = "<group>";
 		};
-		A39A11BF1F15B7690045821B /* QRCodeScanVC */ = {
+		A39A11E51F15F0490045821B /* QRCodeScanVC */ = {
 			isa = PBXGroup;
 			children = (
-				A39A11DD1F15B7E10045821B /* QRCodeScanningVC.h */,
-				A39A11DE1F15B7E10045821B /* QRCodeScanningVC.m */,
-				A39A11DF1F15B7E10045821B /* ZBarQRCodeScanVC.h */,
-				A39A11E01F15B7E10045821B /* ZBarQRCodeScanVC.m */,
+				A39A11E61F15F0490045821B /* QRCodeScanningVC.h */,
+				A39A11E71F15F0490045821B /* QRCodeScanningVC.m */,
+				A39A11E81F15F0490045821B /* ZBarQRCodeScanVC.h */,
+				A39A11E91F15F0490045821B /* ZBarQRCodeScanVC.m */,
 			);
 			path = QRCodeScanVC;
 			sourceTree = "<group>";
@@ -468,8 +468,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A39A11E21F15B7E10045821B /* ZBarQRCodeScanVC.m in Sources */,
-				A39A11E11F15B7E10045821B /* QRCodeScanningVC.m in Sources */,
+				A39A11EB1F15F0490045821B /* ZBarQRCodeScanVC.m in Sources */,
+				A39A11EA1F15F0490045821B /* QRCodeScanningVC.m in Sources */,
 				A39A11DC1F15B7D50045821B /* DFQRCodeScanManager.m in Sources */,
 				A39A118D1F15ADC00045821B /* ViewController.m in Sources */,
 				A39A11D61F15B79C0045821B /* DFQRCodeScanningView.m in Sources */,
